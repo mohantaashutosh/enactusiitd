@@ -1,0 +1,48 @@
+@font-face {
+  font-family: enactusfont;
+  src: url(knockout.otf);
+}
+
+body {
+  cursor: default;
+  font-family: enactusfont;
+  margin: 0px;
+}
+
+#donate {
+  background-color: rgb(239, 87, 46);
+  border: none;
+  color: #fff;
+  transition: background-color 0.75s;
+}
+
+#donate:hover {
+  background-color: rgb(217, 59, 17);
+}
+
+.menu-block {
+  display: block;
+  position: relative;
+  text-align: center;
+}
+
+.menu-block li {
+  box-sizing: border-box;
+  color: #00b6f0;
+  cursor: pointer;
+  display: inline-block;
+  list-style: none;
+  padding: 25px;
+  position: relative;
+  transition: color 0.75s;
+}
+
+.menu-block li:hover {
+  border-bottom-style: solid;
+  border-bottom-color: #00b6f0;
+  color: #102345;
+}
+
+.menu-block ul {
+  margin: 0px;
+}
